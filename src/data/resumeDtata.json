@@ -1,0 +1,123 @@
+{
+  "personalInfo": {
+    "name": "Kowshika Reddy",
+    "title": "Data Engineer",
+    "email": "k.kowshi.reddy@gmail.com",
+    "location": "United States",
+    "github": "https://github.com/KowshiReddy",
+    "linkedin": "https://www.linkedin.com/in/kowshika-reddy/",
+    "website": "https://medevs.xyz",
+    "summary": "Data Engineer with expertise in Cloud technologies (AWS, DataBricks, SnowPro), Kafka, Apache Spark, Apache Flink, Hadoop, AI, ML, and Transformer Models. Experienced in building efficient data pipelines and applications, optimizing software solutions, and leveraging AI to create impactful innovations.",
+    "image": "https://avatars.githubusercontent.com/u/40724828?v=4"
+  },
+  "experience": [
+    {
+      "company": "University at Buffalo",
+      "position": "Graduate Research Assistant",
+      "startDate": "Oct 2024",
+      "endDate": "Dec 2024",
+      "description": "Engineered a machine learning model using bagging and boosting algorithms (Random Forest, XGBoost) to categorize crime types in Los Angeles, applied hotspot clustering (DBSCAN, HDBSCAN) to identify high-risk areas, and used LDA with clustering (BIRCH, Mini Batch KMeans, OPTICS) to analyze crime descriptions, integrating LSTM models for crime forecasting",
+      "companyUrl": "https://www.buffalo.edu/"
+    },
+    {
+      "company": "One Park Financial",
+      "position": "ML Software Engineer Intern",
+      "startDate": "May 2024",
+      "endDate": "Oct 2024",
+      "description": "Developed a hybrid recommendation microservice with Flask and RabbitMQ, optimized SQL functions in PostgreSQL for customer segmentation, and improved financial product promotions through A/B testing in Google Optimize and Maintained data pipeline uptime using Spark, Snowflake, and Python",
+      "companyUrl": "https://www.oneparkfinancial.com/"
+    },
+    {
+      "company": "Contriver",
+      "position": "Data Engineer",
+      "startDate": "Aug 2020",
+      "endDate": "Apr 2023",
+      "description": "Migrated data storage from SQL Server to AWS Redshift, built an ingestion framework with AWS Glue, deployed a real-time data pipeline using Kafka and PySpark, implemented data quality checks with Lambda and CloudWatch, optimized SQL queries in Redshift, and designed Power BI dashboards for real-time insights",
+      "companyUrl": "https://contriver.co.in/about/"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University at Buffalo",
+      "degree": "Masters of Science in Computer Science (Data Science)",
+      "startDate": "Aug 2023",
+      "endDate": "Dec 2024",
+      "institutionUrl": "https://www.buffalo.edu/"
+    }
+  ],
+  "skills": [
+    "Python",
+    "R", 
+    "SQL", 
+    "Scala",
+    "Hadoop", 
+    "Apache Spark",
+    "Apache Kafka", 
+    "Hive", 
+    "Terraform", 
+    "Informatica",
+    "AWS",
+    "GCP",
+    "Data Bricks",
+    "Power BI",
+    "Tabealu",
+    "Looker",
+    "React",
+    "Next.js",
+    "Javascript",
+    "TypeScript",
+    "HTML5",
+    "CSS3",
+    "Node.js",
+    "MySQL",
+    "MongoDB",
+    "Git",
+    "Docker",
+    "CI/CD",
+    "VS Code",
+    "OpenAI",
+    "Langchain"
+  ],
+  "projects": [
+    {
+      "name": "Smart Portfolio",
+      "description": "Portfolio website with AI chatbot. Next.js, React.js, AI integration. Dynamic chatbot for answering questions. Modern web design for optimal UX.",
+      "technologies": ["Next.js", "React", "AI", "OpenAI", "Langchain", "Tailwind CSS"],
+      "link": ""
+    },
+    {
+      "name": "Blog Genius",
+      "description": "AI-powered tool for creating blog articles. React, Next.js, OpenAI integration. Generation of outlines and content. Intuitive user interface.",
+      "technologies": ["React", "Next.js", "AI", "OpenAI", "Node.js"],
+      "link": "https://blog-genius.vercel.app/"
+    },
+    {
+      "name": "Your Daily Way",
+      "description": "High-performance blog with Astro and React. Focus on performance optimization and SEO. Markdown integration for easy content creation.",
+      "technologies": ["Astro", "React", "TypeScript", "SEO", "Markdown"],
+      "link": "http://yourdailyway.com/"
+    }
+  ],
+  "interests": [
+    "Open Source Contributions",
+    "AI and Machine Learning",
+    "Data Analytics and Engineering",
+    "Software Architecture",
+    "System Design",
+    "Problem Solving and Logical Thinking"
+  ],
+  "certifications": [
+    {
+      "1": "AWS Cloud Practioner",
+      "2": "AWS Data Engineer",
+      "3": "Meta-Backend Developer",
+      "4": "Programming in Java",
+    }
+  ],
+  "softSkills": [
+    "Problem Solving",
+    "Logical Thinking",
+    "Teamwork",
+    "Communication"
+  ]
+}
