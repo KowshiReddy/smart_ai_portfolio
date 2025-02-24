@@ -47,14 +47,14 @@
   ],
   "skills": [
     "Python",
-    "R", 
-    "SQL", 
+    "R",
+    "SQL",
     "Scala",
-    "Hadoop", 
+    "Hadoop",
     "Apache Spark",
-    "Apache Kafka", 
-    "Hive", 
-    "Terraform", 
+    "Apache Kafka",
+    "Hive",
+    "Terraform",
     "Informatica",
     "AWS",
     "GCP",
@@ -82,19 +82,38 @@
     {
       "name": "Smart Portfolio",
       "description": "Portfolio website with AI chatbot. Next.js, React.js, AI integration. Dynamic chatbot for answering questions. Modern web design for optimal UX.",
-      "technologies": ["Next.js", "React", "AI", "OpenAI", "Langchain", "Tailwind CSS"],
+      "technologies": [
+        "Next.js",
+        "React",
+        "AI",
+        "OpenAI",
+        "Langchain",
+        "Tailwind CSS"
+      ],
       "link": ""
     },
     {
       "name": "Blog Genius",
       "description": "AI-powered tool for creating blog articles. React, Next.js, OpenAI integration. Generation of outlines and content. Intuitive user interface.",
-      "technologies": ["React", "Next.js", "AI", "OpenAI", "Node.js"],
+      "technologies": [
+        "React",
+        "Next.js",
+        "AI",
+        "OpenAI",
+        "Node.js"
+      ],
       "link": "https://blog-genius.vercel.app/"
     },
     {
       "name": "Your Daily Way",
       "description": "High-performance blog with Astro and React. Focus on performance optimization and SEO. Markdown integration for easy content creation.",
-      "technologies": ["Astro", "React", "TypeScript", "SEO", "Markdown"],
+      "technologies": [
+        "Astro",
+        "React",
+        "TypeScript",
+        "SEO",
+        "Markdown"
+      ],
       "link": "http://yourdailyway.com/"
     }
   ],
@@ -111,7 +130,7 @@
       "1": "AWS Cloud Practioner",
       "2": "AWS Data Engineer",
       "3": "Meta-Backend Developer",
-      "4": "Programming in Java",
+      "4": "Programming in Java"
     }
   ],
   "softSkills": [
