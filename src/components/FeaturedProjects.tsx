@@ -34,10 +34,10 @@ const techIcons: { [key: string]: JSX.Element } = {
 
 const projects = [
   {
-    title: 'smart-portfolio',
-    description: 'A Portfolio Website with an AI chatbot that can answer any question about you.',
-    techStack: ['Next.js', 'OpenAI', 'TypeScript', 'TailwindCSS'],
-    github: 'https://github.com/KowshiReddy',
+    title: 'Smart Meal Planner',
+    description: 'The project employs object detection and text generation models to analyze images of ingredients and generate personalized recipes based on the detected ingredients, and aims to minimize food waste, optimize healthy meal planning.',
+    techStack: ['OCR', 'Transformers', 'DeepLearning', 'RAG', 'YOLO', 'Streamlit'],
+    github: 'https://github.com/KowshiReddy/ai_smart_meal_planner',
     stars: 0,
     forks: 1
   },
@@ -47,8 +47,7 @@ const projects = [
   techStack: ['ETL', 'DAGs', 'AWS', 'Apache Airflow', 'API', 'Rate Limits','OpenWeatherMap API', 'Airflow Scheduling', 'Cron Jobs'],
   github: 'https://github.com/KowshiReddy',
   stars: 0,
-  forks: 0,
-  image: 'https://cdn.prod.website-files.com/6130fa1501794e37c21867cf/63cf3084f1439f2401b8d477_0qBAzVjwAYTmqKX3Yb5RTDEt3tE_pKN3mWHfRgB1ruK9WCYnMBSUcFL_CwEa9eA4SpO3eYHKwMCzlZI7xwRWcQePNVZ10iOJrPa_AYbSLgcIc3p_VBpwh2sFUeIBtqDrh-Fx3XAdSmTI92UHXIHbNZW7yec8ZzAfc_iFcir6gxE1_qikjmFvnhB8ji0w.png',
+  forks: 0
 },
   {
     title: 'AI-Driven Stock Market Prediction and Analysis System',
@@ -67,6 +66,22 @@ const projects = [
     github: 'https://github.com/KowshiReddy',
     stars: 0,
     forks: 0
+  },
+  {
+    title: 'ShareSafely - File Share Web App',
+    description: ['This project provides functionality to upload files to an Amazon S3 bucket, generate presigned URLs for file access with an expiration time, and automatically delete expired files using AWS Lambda.'],
+    techStack: ['Java', 'Spring Boot', 'AWS S3', 'AWS KMS', 'AWS IAM','Lambda', 'AWS EC2'],
+    github: 'https://github.com/KowshiReddy/ShareSafely',
+    stars: 0,
+    forks: 0
+  },
+  {
+    title: 'YouTube Statistics Analysis using Tableau and Looker',
+    description: ['This project delves into the “Global YouTube Statistics 2023” dataset from Kaggle, aiming to understand trends in YouTube channel growth, popular genres, geographic distribution, and factors influencing channel success.'],
+    techStack: ['Tableau', 'Looker', 'Predictive Analysis', 'Data Visualizations'],
+    github: 'https://github.com/KowshiReddy',
+    stars: 0,
+    forks: 0
   }
 ];
 
@@ -74,9 +89,9 @@ const FeaturedProjects: React.FC = () => {
   return (
     <div className="bg-[#F8FAFC] dark:bg-[#151B28] rounded-lg p-3 h-full transition-colors">
       <h2 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-blue-600 mb-4">
-        Upcoming Projects
+        Featured Projects
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 h-[calc(100%-3rem)]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 ">
         {projects.map((project, index) => (
           <div
             key={index}
