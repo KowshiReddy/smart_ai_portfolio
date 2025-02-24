@@ -6,7 +6,7 @@ type Repo = RestEndpointMethodTypes["repos"]["listForUser"]["response"]["data"][
 
 export async function GET() {
   try {
-    const username = process.env.GITHUB_USERNAME;
+    const username = "KowshiReddy";
     console.log('GitHub Username:', username);
     
     if (!username) {
