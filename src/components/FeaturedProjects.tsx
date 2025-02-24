@@ -117,10 +117,6 @@ const FeaturedProjects: React.FC = () => {
                   ))}
                 </div>
               )}
-              {/* Add image below tech stack */}
-              {project.image && (
-                <img src={project.image} alt={project.title} className="w-full h-auto rounded-md mt-3" />
-              )}
             </div>
             <div className="flex items-center justify-between mt-2">
               <div className="flex items-center space-x-4">
